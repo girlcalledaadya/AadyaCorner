@@ -1,0 +1,141 @@
+body {
+    background-image: url("images/sky.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    font-size: 121%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a{
+    color: #000000
+}
+a:visited{
+    color: #000000
+}
+
+.social_content{
+    display: flex;
+    gap: 1%;
+}
+.social{
+    width: 25%;
+    display: flex;
+    gap: 2%;
+    background: #05D6F180;
+    border-radius: 12px;
+    font-size: 80%;
+}
+.social img{
+    width: 18%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.social a{
+    margin-top: 7%;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 200px){
+    .socials{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 201px) and (max-width: 300px){
+    .socials{
+        margin-top: -10%;
+    }
+    .social_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        width: 100%;
+        margin-top: 6%;
+    }
+    #gmail{
+        display: none;
+    }
+    #linkedin{
+        margin-top: -6%;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 400px){
+    .social_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        width: 100%;
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 451px){
+    .social_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        width: 100%;
+        margin-top: 6%;
+        font-size: 100%;
+    }
+    .social a{
+        margin-top: 7%;
+    }
+    #gmail{
+        margin-top: 0%;
+    }
+    #gmail a{
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 700px){
+    .social_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        width: 100%;
+        margin-top: 6%;
+        font-size: 100%;
+    }
+    .social a{
+        margin-top: 8%;
+    }
+    #gmail{
+        margin-top: 0%;
+    }
+    #gmail a{
+        margin-top: 7%;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1232px){
+    .social_content{
+        display: flex;
+    }
+    .social{
+        width: 33.3%;
+        font-size: 100%;
+    }
+    .social a{
+        margin-top: 6%;
+    }
+    #gmail{
+        display: none;
+    }
+}
