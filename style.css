@@ -45,6 +45,12 @@ a:visited{
     margin-top: 7%;
 }
 
+.the_writing_space{
+    background: #05D6F180;
+    border-radius: 12px;
+    padding: 1%;
+}
+
 @media only screen and (min-width: 1px) and (max-width: 200px){
     .socials{
         display: none;
